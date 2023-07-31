@@ -2,6 +2,8 @@ package Daemon;
 
 import java.util.concurrent.TimeUnit;
 
+import java.util.concurrent.TimeUnit;
+
 public class UserThread extends Thread {
     public void run() {
         for (int i = 0; i < 20; i++) {

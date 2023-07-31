@@ -13,6 +13,12 @@ public class Main {
         daemonThread.setDaemon(true);
         userThread.start();
         daemonThread.start();
+        System.out.println("Daemon thread ID: " + daemonThread.getId());
+        System.out.println("Daemon thread name: " + daemonThread.getName());
+        System.out.println("Daemon thread state: " + daemonThread.getState());
+        System.out.println("Daemon thread: " + daemonThread.isAlive());
+        System.out.println("Daemon thread status: " + daemonThread.isDaemon());
+        System.out.println("Daemon thread priority: " + daemonThread.getPriority());
         System.out.println("Main thread ends");
 
     }
